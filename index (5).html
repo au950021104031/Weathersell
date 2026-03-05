@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="WeatherSell AI Pro — Real-Time Retail &amp; E-Commerce Intelligence for 7 Indian Cities"/>
+  <meta name="author" content="Molija Baskar"/>
+  <meta property="og:title" content="WeatherSell AI Pro"/>
+  <meta property="og:description" content="Real-Time Weather-Driven Retail &amp; E-Commerce Intelligence · 7 Indian Cities"/>
+  <meta property="og:type" content="website"/>
+  <title>WeatherSell AI Pro — Molija Baskar</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Splash screen: pure CSS, visible instantly before any JS loads -->
+  <div id="_sp">
+    <svg width="52" height="52" viewBox="0 0 46 46">
+      <defs><radialGradient id="mg" cx="40%" cy="40%">
+        <stop offset="0%"   stop-color="#fcd34d"/>
+        <stop offset="60%"  stop-color="#f59e0b"/>
+        <stop offset="100%" stop-color="#d97706"/>
+      </radialGradient></defs>
+      <circle cx="23" cy="23" r="21" fill="none" stroke="#1e3050" stroke-width="1"/>
+      <path d="M28,7 A17,17 0 1 0 28,39 A13,13 0 1 1 28,7 Z" fill="url(#mg)"/>
+    </svg>
+    <h1>WeatherSell AI Pro</h1>
+    <div><span class="d"></span><span class="d"></span><span class="d"></span></div>
+    <p>Loading dashboard&hellip;</p>
+  </div>
+
+  <div id="root"></div>
+
+  <!-- Pre-compiled JS — zero browser build step, loads instantly -->
+  <script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/recharts@2.8.0/umd/Recharts.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
